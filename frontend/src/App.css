@@ -1,0 +1,50 @@
+/* Wallet adapter button styling */
+.wallet-adapter-button {
+  background: linear-gradient(135deg, #00d4ff, #b794f6) !important;
+  border: none !important;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 600 !important;
+  transition: all 0.2s !important;
+}
+
+.wallet-adapter-button:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.5) !important;
+}
+
+.wallet-adapter-button-trigger {
+  background: linear-gradient(135deg, #00d4ff, #b794f6) !important;
+}
+
+.wallet-adapter-modal-wrapper {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(10px) !important;
+}
+
+.wallet-adapter-modal {
+  background: #1a1a1a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 1rem !important;
+}
+
+.wallet-adapter-modal-title {
+  color: #fff !important;
+}
+
+.wallet-adapter-modal-list {
+  background: transparent !important;
+}
+
+.wallet-adapter-modal-list-item {
+  background: rgba(255, 255, 255, 0.05) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  transition: all 0.2s !important;
+}
+
+.wallet-adapter-modal-list-item:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(0, 212, 255, 0.5) !important;
+}
