@@ -10,6 +10,7 @@ import ProofGenerator from '../components/ProofGenerator'
 import CreditTips from '../components/CreditTips'
 import CreditReportExport from '../components/CreditReportExport'
 import LoadingSkeleton from '../components/LoadingSkeleton'
+import FAQSection from '../components/FAQSection'
 
 export default function BorrowerDashboard() {
   const { publicKey, connected } = useAleoWallet()
@@ -260,6 +261,9 @@ export default function BorrowerDashboard() {
             ))}
           </div>
         </motion.div>
+
+        {/* FAQ Section */}
+        <FAQSection />
       </div>
     )
   }
@@ -371,6 +375,10 @@ export default function BorrowerDashboard() {
                   })}
                 </div>
               </motion.div>
+            </div>
+
+            <div className="lg:col-span-2">
+              <FAQSection />
             </div>
           </div>
         </div>
