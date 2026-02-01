@@ -290,13 +290,6 @@ cd frontend
 npm run build
 ```
 
-### Mainnet Considerations
-
-- Audit Leo programs
-- Implement rate limiting
-- Add multi-signature for critical functions
-- Monitor gas costs
-- Implement emergency pause mechanism
 
 ## 📝 License
 
