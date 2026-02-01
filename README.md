@@ -308,4 +308,4 @@ This is a buildathon submission. For production use, conduct thorough security a
 
 ## 📧 Contact
 
-Built for Aleo Mainnet Buildathon 2026
+Built for Aleo
